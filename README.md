@@ -4,6 +4,7 @@
 [![Rust Documentation](https://img.shields.io/badge/api-rustdoc-blue.svg)](https://docs.rs/aa-colour)
 [![Crates.io version](https://img.shields.io/crates/v/aa-colour)](https://crates.io/crates/aa-colour/)
 [![Crates.io license](https://img.shields.io/crates/l/aa_regex)](https://github.com/jeanmanguy/aa-regex/blob/master/LICENSE)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjeanmanguy%2Faa-colour.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjeanmanguy%2Faa-colour?ref=badge_shield)
 
 🎨 Add colours to your amino acids in the terminal.
 
@@ -27,3 +28,7 @@ println!("{}", AaColour::blank::<Clustal>(&'-').unwrap());
     - Disorder propensity
     - etc.
 - [X] allow for amino acids to not be coloured (for protein alignments)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjeanmanguy%2Faa-colour.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjeanmanguy%2Faa-colour?ref=badge_large)
